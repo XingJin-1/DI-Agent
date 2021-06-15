@@ -3,7 +3,7 @@
         "deepIndexing": [
             {
                 "artifact_metadata": {
-                    "artifact_id": "23c29f71566b45a6a4d88e2f5267bc95",
+                    "artifact_id": "9f4f5be0b26b47e48762ab3c949a3014",
                     "username": "Xing Jin",
                     "source": "local test",
                     "filetype": "atv-ps-wfm"
@@ -14,17 +14,17 @@
                 "operating_conditions": [
                     {
                         "name": "tambient",
-                        "value": "150",
+                        "value": "-40",
                         "unit": "C"
                     },
                     {
                         "name": "Vsup",
-                        "value": "13.5",
+                        "value": "28",
                         "unit": "V"
                     },
                     {
                         "name": "Iload",
-                        "value": "0.5",
+                        "value": "0.1",
                         "unit": "A"
                     }
                 ],
@@ -39,7 +39,7 @@
             },
             {
                 "artifact_metadata": {
-                    "artifact_id": "23c29f71566b45a6a4d88e2f5267bc95",
+                    "artifact_id": "9f4f5be0b26b47e48762ab3c949a3014",
                     "username": "Xing Jin",
                     "source": "local test",
                     "filetype": "atv-ps-wfm"
@@ -50,17 +50,17 @@
                 "operating_conditions": [
                     {
                         "name": "tambient",
-                        "value": "150",
+                        "value": "-40",
                         "unit": "C"
                     },
                     {
                         "name": "Vsup",
-                        "value": "13.5",
+                        "value": "28",
                         "unit": "V"
                     },
                     {
                         "name": "Iload",
-                        "value": "0.5",
+                        "value": "0.1",
                         "unit": "A"
                     }
                 ],

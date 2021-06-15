@@ -1,6 +1,5 @@
 import time
 
-
 import glob, os
 import numpy as np
 import json
@@ -10,13 +9,9 @@ import requests
 from requests_negotiate_sspi import HttpNegotiateAuth
 import warnings
 
-
 from DI import Deep_Indexing_Agent
-
 from loadMATLib import loadmat
-from alive_progress import alive_bar
-from readMAT import read_general_mat
-from readWfm import read_waveform_mat
+
 
 MEGA = 10 ** 6
 MEGA_STR = ' ' * MEGA
@@ -55,7 +50,6 @@ def process(data):
     else:
         deep_Indexing_Agent.deep_indexing_wfm_mat(data)
 
-
     time.sleep(5)
 
     print("Experiment finished", flush=True)
@@ -68,18 +62,16 @@ def main():
     data={}
     data['DataType'] = "MATLAB"
     data['TestName'] = "Serverless_Testing_For_DI_Agent"
-    data['artifactID'] = "23c29f71566b45a6a4d88e2f5267bc95"
+    data['artifactID'] = "9f4f5be0b26b47e48762ab3c949a3014"
     data['dateCreated'] = "2021-06-14T22:02:15Z"
 
     rawDataFileField = {}
     rawDataFileField['contentType'] = "application/octet-stream"
-    rawDataFileField['fileName'] = "mat_plus_new_metadata_sample=1[]_tambient=150[C]_Vsup=13.5[V]_Iload=0.5[A]_REP=00001[].mat"
+    rawDataFileField['fileName'] = "mat_plus_new_metadata_sample=1[]_tambient=-40[C]_Vsup=28[V]_Iload=0.1[A]_REP=00001[].mat"
     rawDataFileField['fileSize'] = "3965"
     data['rawDataFile'] = rawDataFileField
 
     data['version'] = "1"
-
-    #print(data['rawDataFile']['fileName'])
 
     process(data)
 
