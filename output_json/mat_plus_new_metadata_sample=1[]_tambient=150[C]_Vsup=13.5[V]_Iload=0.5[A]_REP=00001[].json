@@ -1,0 +1,78 @@
+{
+    "internalMetadata": {
+        "deepIndexing": [
+            {
+                "artifact_metadata": {
+                    "artifact_id": "23c29f71566b45a6a4d88e2f5267bc95",
+                    "username": "Xing Jin",
+                    "source": "local test",
+                    "filetype": "atv-ps-wfm"
+                },
+                "metadata": {
+                    "timestamp": "2021-06-14T22:02:15Z"
+                },
+                "operating_conditions": [
+                    {
+                        "name": "tambient",
+                        "value": "150",
+                        "unit": "C"
+                    },
+                    {
+                        "name": "Vsup",
+                        "value": "13.5",
+                        "unit": "V"
+                    },
+                    {
+                        "name": "Iload",
+                        "value": "0.5",
+                        "unit": "A"
+                    }
+                ],
+                "channel": {
+                    "metadata": {
+                        "name": "VQ",
+                        "type": "double"
+                    },
+                    "pathtype": "atv_ps_wfm",
+                    "pathspec": "data{1, 1}.out.VQ"
+                }
+            },
+            {
+                "artifact_metadata": {
+                    "artifact_id": "23c29f71566b45a6a4d88e2f5267bc95",
+                    "username": "Xing Jin",
+                    "source": "local test",
+                    "filetype": "atv-ps-wfm"
+                },
+                "metadata": {
+                    "timestamp": "2021-06-14T22:02:15Z"
+                },
+                "operating_conditions": [
+                    {
+                        "name": "tambient",
+                        "value": "150",
+                        "unit": "C"
+                    },
+                    {
+                        "name": "Vsup",
+                        "value": "13.5",
+                        "unit": "V"
+                    },
+                    {
+                        "name": "Iload",
+                        "value": "0.5",
+                        "unit": "A"
+                    }
+                ],
+                "channel": {
+                    "metadata": {
+                        "name": "Reg2",
+                        "type": "integer"
+                    },
+                    "pathtype": "atv_ps_wfm",
+                    "pathspec": "data{1, 1}.out.Reg2"
+                }
+            }
+        ]
+    }
+}
